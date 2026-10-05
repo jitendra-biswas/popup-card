@@ -9,7 +9,7 @@ const Page = () => {
   return (
     <div className="w-full h-screen bg-[#0A0A0A] p-10 relative font-sans">
       
-      <nav className="fixed top-0 left-0 w-full h-20 text-zinc-100 flex items-center px-20 justify-between z-10">
+      <nav className="fixed top-0 left-0 w-full h-20 text-zinc-100 flex items-center px-20 max-md:px-10 justify-between z-10">
         <div className="logo">
           <h1 className="text-xl font-semibold italic">Card.</h1>
         </div>
