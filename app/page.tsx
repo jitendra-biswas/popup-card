@@ -14,7 +14,7 @@ const Page = () => {
           <h1 className="text-xl font-semibold italic">Card.</h1>
         </div>
 
-        <ul className="flex items-center gap-5">
+        <ul className="flex items-center gap-5 max-md:hidden">
           <li className="hover:underline cursor-pointer">Home</li>
           <li className="hover:underline cursor-pointer">About</li>
           <li className="hover:underline cursor-pointer">How it's Work</li>
